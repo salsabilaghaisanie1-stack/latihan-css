@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+/* 1. Selector tag: semua elemen <h1> */
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+/* 2. Selector class: elemen dengan class="highlight" */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* 3. Selector id: elemen dengan id="spesial" */
+#spesial {
+    color: red;
+    font-size: 24px;
+}
+
+/* 4. Selector descendant: <p> di dalam <div> */
+div p {
+    color: purple;
+}

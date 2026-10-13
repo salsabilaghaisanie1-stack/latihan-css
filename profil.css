@@ -1,0 +1,57 @@
+/* Selector Tag: Mengatur tampilan dasar body */
+body {
+    background-color: #f0f4f8;
+    font-family: 'Poppins', sans-serif; /* Typography untuk isi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Selector Class (.kartu): Menerapkan Box Model, border, dan border-radius */
+.kartu {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 30px;              /* Box Model: padding dalam kartu */
+    margin: 20px;               /* Box Model: margin luar kartu */
+    border: 2px solid #e2e8f0;  /* Border kartu */
+    border-radius: 16px;        /* Sudut membulat */
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); /* Efek bayangan */
+}
+
+/* Selector Class (.foto): Mengatur tampilan gambar */
+.foto {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;         /* Membuat foto menjadi lingkaran */
+    border: 4px solid #3182ce;  /* Border di sekeliling foto */
+    margin-bottom: 20px;
+}
+
+/* Selector ID (#nama): Typography khusus untuk judul nama */
+#nama {
+    font-family: 'Lora', serif; /* Font berbeda untuk judul */
+    font-size: 24px;
+    color: #2d3748;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Selector Class (.info): Mengatur teks informasi NIM & Prodi */
+.info {
+    font-size: 14px;
+    color: #4a5568;
+    margin: 6px 0;
+    font-weight: 500;
+}
+
+/* Selector Tag (p untuk deskripsi): Mengatur paragraf penjelasan */
+p.deskripsi {
+    font-size: 13px;
+    color: #718096;
+    margin-top: 18px;
+    line-height: 1.6;           /* Jarak antar baris agar nyaman dibaca */
+}
